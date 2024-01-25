@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactDOM } from "react";
-import TestComp from "./functionalComponents/propscomp";
+import PropsComponent from "./functionalComponents/PropsComponent";
 
 class ReiteratorComp extends React.Component{
     render(){
