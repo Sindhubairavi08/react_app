@@ -1,14 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import PropsComponent from './components/functionalcomponents/PropsComponent';
-import StateComponent from './components/classcomponents/StateComponent';
+import NavBar from './components/functionalcomponents/NavBar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/functionalcomponents/Home';
+import About from './components/functionalcomponents/About';
+import Login from './components/functionalcomponents/Login';
+//import PropsComponent from './components/functionalcomponents/PropsComponent';
+//import StateComponent from './components/classcomponents/StateComponent';
 function App() {
   return (
     <div className="App">
-    
-      <header className="App-header">
-    <PropsComponent name="Sindhu" role="front-end developer"></PropsComponent>
-      <StateComponent></StateComponent>
+      <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route path="/Home" element={<Home/>}></Route>
+        <Route path="/About" element={<About/>}></Route>
+        <Route path="/Login" element={<Login/>}></Route>
+      </Routes>
+      </BrowserRouter>
+    {/* {/* <PropsComponent name="Sindhu" role="front-end developer"/> */}
+      <header className="App-header"> 
+      {/* <StateComponent></StateComponent> */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

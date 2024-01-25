@@ -1,0 +1,11 @@
+
+ol{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-evenly;
+   
+    
+}
+div{
+    background-color:lightcoral;
+}
