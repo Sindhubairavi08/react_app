@@ -4,7 +4,7 @@ import { ReactDOM } from "react";
 function TestComp(props){
     return(
         <div>
-            <h1>Hello,I am {props.name}<br></br>{props.role}bowler</h1>
+            <h1>Hello,I am {props.name}<br></br>{props.role}</h1>
         </div>
     );
 }

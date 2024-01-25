@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import TestComp from './components/functionalcomponents/propscomp';
-import ReiteratorComp from './components/classcomponents/Classcomp';
 function App() {
   return (
     <div className="App">
-      <ReiteratorComp/>
+    
       <header className="App-header">
-        <TestComp/>
+      <TestComp name="Sindhu" role="front-end developer"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
