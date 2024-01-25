@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import TestComp from './components/functionalcomponents/testComponents';
-import ReiteratorComp from './components/classcomponents/testclasscomponent';
+import TestComp from './components/functionalcomponents/propscomp';
+import ReiteratorComp from './components/classcomponents/Classcomp';
 function App() {
   return (
     <div className="App">
