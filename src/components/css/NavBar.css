@@ -3,9 +3,18 @@ ol{
     display: flex;
     list-style-type: none;
     justify-content:space-evenly;
-   
-    
 }
 div{
-    background-color:lightcoral;
+    color:lightcoral;
+} 
+.App-header{
+    color: coral;
 }
+.footer {
+    background-color: #060808;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
