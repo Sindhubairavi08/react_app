@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/functionalcomponents/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -43,9 +43,9 @@ function App() {
         <div>
         <h3>Follow Us</h3>
                 <ol>
-                    <li>LinkedIn</li>
-                    <li>Instagram</li>
-                    <li>GitHub</li>
+                    <li> <a href="https://www.linkedin.com/in/sindhu-bairavi-12896a235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn </a></li>
+                    <li> <a href="https://www.instagram.com/sindhu_bairavi_03/">Instagram </a></li>
+                    <li> <a href="https://github.com/Sindhubairavi08">GitHub</a></li>
                 </ol>
     
         </div>

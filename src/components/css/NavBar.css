@@ -17,4 +17,9 @@ div{
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: blueviolet;
+  }
+  a,p,h3{
+    text-decoration: none;
+    color:blueviolet;
   }
