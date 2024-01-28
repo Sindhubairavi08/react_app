@@ -1,0 +1,19 @@
+useRef -> referencing something
+-> retrive your previous value
+-> avoid infinite loops
+SYNTAX:
+const kecbatch=useRef(0);
+{current : 0}//object
+
+useMemo
+- used for memozation
+- used when your performance degrades
+- useEffect(() => {},[]) //(function,dependencies)
+- entirely based on caching 
+
+useCallback():
+- it is very dangerous hook if you don't perform actions properly
+- it will directly be intact with your cache memory 
+- it wil cache your entire function written inside useCallback()
+- performance drastically increases
+- many call can come to function but it will just retrive it from the cache it won't render the entire component function
